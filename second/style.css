@@ -1,0 +1,40 @@
+body, html {
+	height: 100%;
+}
+
+.one {
+  background-color: #0787D9;	
+  height: 100%;
+  width: 33%;
+  float: left;
+}
+
+.two {
+  background-color: #54D8A7;
+  height: 100%;
+  width: 33%;
+  float: left;
+}
+
+.main {
+  height: 100%;
+  width: 33%;
+  float: left;
+}
+
+.three {
+  background-color: #CBE18E;
+  height: 75%;
+  width: 100%;
+}
+
+.four {
+  height: 25%;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  line-height: 4;
+}
+
