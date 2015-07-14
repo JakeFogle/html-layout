@@ -1,40 +1,51 @@
-body, html {
-	height: 100%;
+* {
+  box-sizing: border-box;
 }
 
-.one {
-  background-color: #0787D9;	
+html, body {
   height: 100%;
-  width: 33%;
-  float: left;
-}
-
-.two {
-  background-color: #54D8A7;
-  height: 100%;
-  width: 33%;
-  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
 }
 
 .main {
   height: 100%;
-  width: 33%;
+  width: 80%;
+  margin: 5% auto;
+  padding: 1px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.Col {
+  height: 100%;
+  width: 33.33%;
   float: left;
 }
 
-.three {
-  background-color: #CBE18E;
-  height: 75%;
-  width: 100%;
+.left {
+  background-color: blue;
 }
 
-.four {
-  height: 25%;
-  width: 100%;
+.mid {
+  background-color: turquoise;
+}
+
+.right {
+  background-color: lime;
+}
+
+.top {
+  height: 80%
+}
+
+.bottom {
+  height: 20%;
   background-color: red;
-  text-align: center;
   color: white;
-  font-size: 36px;
+  font-size: 32px;
+  text-align: center;
   line-height: 4;
 }
-
